@@ -1,0 +1,67 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+
+    .head-item,
+    .head-popular {
+      padding: 0 15px;
+      max-width: 50%;
+      flex: 50%;
+    }
+
+    .popular-list a {
+      margin-bottom: 20px;
+    }
+
+    .appeal-list {
+      padding: 0;
+      margin: 0 auto;
+      max-width: 682px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-line-pack: end;
+      align-content: flex-end;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+
+    .footer {
+      .container {
+        max-width: 480px;
+      }
+
+      .logo {
+        display: block;
+        text-align: center;
+      }
+    }
+
+    .head_single-item {
+      padding: 30px;
+      box-shadow: 0 4px 15px rgba(100, 103, 130, .15);
+    }
+
+.pagination-video a {
+    transition: .3s;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+  max-width: 45%;
+}
+    .pagination-video a:last-child .content {
+    -ms-flex-order: -1;
+    order: -1;
+}
+     .bottom_btn-item {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 225px;
+}
+  }
+}

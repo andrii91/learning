@@ -1,0 +1,141 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+  @import '../desktop';
+
+  & {
+
+    .xs-1 {
+      -ms-flex-order: inherit;
+      order: inherit;
+    }
+
+    .xs-2 {
+      -ms-flex-order: inherit;
+      order: inherit;
+    }
+
+    .xs-3 {
+      -ms-flex-order: inherit;
+      order: inherit;
+    }
+
+    .xs-4 {
+      -ms-flex-order: inherit;
+      order: inherit;
+    }
+
+    .footer {
+      .container {
+        max-width: 100%;
+      }
+    }
+
+    .footer {
+
+      .logo,
+      .menu {
+        margin-bottom: 29px;
+      }
+
+      .col-xl-9 {
+        position: static;
+      }
+
+      .row {
+        position: relative;
+      }
+
+      .menu {
+        li {
+          display: inline-block;
+          margin-left: 40px;
+        }
+
+        &:before {
+          content: "";
+          height: 1px;
+          width: calc(100% - 30px);
+          background: #15A6EF;
+          position: absolute;
+          top: 71px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+
+      .footer-menu {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: inherit;
+        flex-wrap: inherit;
+        margin: 27px 0 0 auto;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: space-between;
+
+        li {
+          margin-right: 40px;
+          -ms-flex: none;
+          flex: none;
+          max-width: 100%;
+          padding: 0;
+          margin-bottom: 0px;
+
+
+          &:last-child {
+            -ms-flex-order: inherit;
+            order: inherit;
+            margin-left: 8px;
+          }
+        }
+      }
+
+      .logo {
+        text-align: left;
+      }
+    }
+
+    .copyright {
+      text-align: left;
+    }
+
+    #nav-icon {
+      display: none;
+    }
+
+    #menu {
+      display: block;
+      text-align: right;
+
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 40px 0 0;
+      }
+    }
+
+
+    .head-item {
+      padding: 0 15px;
+      max-width: 60%;
+      flex: 60%;
+    }
+
+    .head-popular {
+      padding: 0 15px;
+      max-width: 40%;
+      flex: 40%;
+    }
+
+    .popular-list a {
+      margin-bottom: 20px;
+    }
+    
+     .head_single-item {
+      padding: 30px 50px;
+    }
+  }
+
+}

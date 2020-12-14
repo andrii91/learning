@@ -279,7 +279,7 @@
   .appeal-list {
     text-align: center;
     display: block;
-    margin-top: 30px;
+//    margin-top: 30px;
   }
 
   li {
@@ -291,7 +291,11 @@
     color: #FFFFFF;
     margin-bottom: 11px;
   }
-
+  .popular-list a {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
   .footer {
 
     .col-6,
@@ -449,7 +453,7 @@
     }
   
   .appeal {
-    padding-bottom: 30px;
+    padding: 50px 0;
     
   }
   .bottom_btn-item .content {

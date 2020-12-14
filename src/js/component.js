@@ -7,6 +7,8 @@ $(document).ready(function() {
     $(this).toggleClass('open');
     $(this).parents('nav').toggleClass('open');
     $('#menu').slideToggle(200);
+      $('header, main,footer').toggleClass('blur');
+      $('body').toggleClass('overflow-hidden')
 
   });
 

@@ -456,19 +456,22 @@
   .bottom_btn-item .content {
     max-width: 340px;
   }
+
   .nav {
     transition: 0s;
   }
 
-  .nav.open, .nav.fixed.open  {
+  .nav.open,
+  .nav.fixed.open {
     margin: 0 15px;
-    width: calc(100% - 30px);
+    width: calc(100% - 31px);
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     top: 15px;
     padding-top: 25px;
     background: #fff;
-padding-bottom: 25px;
+    padding-bottom: 25px;
+
     .fill-color {
       fill: #19153E;
     }
@@ -478,6 +481,7 @@ padding-bottom: 25px;
         background: #19153E;
       }
     }
+
     .logo {
       padding-left: 19px;
     }
@@ -485,6 +489,7 @@ padding-bottom: 25px;
 
   .nav.fixed {
     padding: 11px 0 10px;
+
     #nav-icon {
       span {
         background: #19153E;
@@ -499,7 +504,7 @@ padding-bottom: 25px;
           color: #19153E;
 
           &.pricing-btn {
-//            color: #fff;
+            //            color: #fff;
           }
         }
       }
@@ -507,7 +512,7 @@ padding-bottom: 25px;
   }
 
   #menu {
-//    border-top: 1px solid #D1DBE6;
+    //    border-top: 1px solid #D1DBE6;
     display: none;
     position: absolute;
     top: calc(100% + 18px);
@@ -526,7 +531,7 @@ padding-bottom: 25px;
       padding: 0;
 
       a {
-            padding: 20px 35px;
+        padding: 20px 35px;
         color: #19153E;
 
         &:before {
@@ -536,10 +541,12 @@ padding-bottom: 25px;
           top: -1px;
           transform: none;
         }
+
         &.pricing-btn {
-            padding: 20px 35px;
-        color: #19153E;
+          padding: 20px 35px;
+          color: #19153E;
           background: 0 0;
+
           &:before {
             display: block;
           }
@@ -575,11 +582,13 @@ padding-bottom: 25px;
   .pagination-video a .content .title {
     max-width: 190px;
   }
+
   .head_single .head-title {
     margin-bottom: 14px;
   }
+
   .footer-menu {
-        max-width: 135px;
+    max-width: 135px;
     margin-left: auto;
   }
 }

@@ -110,20 +110,24 @@
       text-align: right;
       position: static;
       transform: none;
-    background: transparent;
+      background: transparent;
       border-radius: 0;
       transition: 0;
+
       li {
         display: inline-block;
         vertical-align: middle;
         margin: 0 40px 0 0;
         border: 0;
+
         a {
           color: #fff;
+
           &:not(.pricing-btn) {
             padding-left: 0;
-          padding-right: 0;
+            padding-right: 0;
           }
+
           &:before {
             content: "";
             width: 100%;
@@ -139,9 +143,11 @@
         }
       }
     }
- #menu,  .nav.fixed #menu {
-    background: transparent;
-}
+
+    #menu,
+    .nav.fixed #menu {
+      background: transparent;
+    }
 
     .head-item {
       padding: 0 15px;
@@ -158,16 +164,24 @@
     .popular-list a {
       margin-bottom: 20px;
     }
-    
-     .head_single-item {
+
+    .head_single-item {
       padding: 30px 50px;
     }
+
     .bottom_btn-item .content {
       max-width: 520px;
     }
+
     .xs-none {
       display: inline-block !important;
     }
+    
+     .footer-menu {
+        max-width: 330px;
+    margin-left: 0;
+  }
+    
   }
 
 }

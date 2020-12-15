@@ -373,7 +373,7 @@ body {
 
 .appeal {
 //  background: url('../images/bg1.svg') no-repeat center;
-  background: url('../images/bg.jpg') no-repeat center;
+  background: url('../images/bgn3.svg') no-repeat center;
   background-size: cover;
   padding: 30px 0 22px;
   text-align: center;
@@ -745,8 +745,8 @@ margin-bottom: 15px;
   &:before {
     content: "";
     background: url('../images/btn-one.svg') no-repeat;
-    width: 490px;
-    height: 269px;
+    width: 720px;
+    height: 270px;
 transition: .3s;
     position: absolute;
     bottom: 0;
@@ -799,8 +799,8 @@ transition: .3s;
       &:before {
         content: "";
         background: url('../images/btn-two2.svg') no-repeat;
-        width: 451px;
-        height: 269px;
+        width: 720px;
+        height: 270px;
 
         position: absolute;
         bottom: 0;
@@ -812,4 +812,8 @@ transition: .3s;
 
 .logo {
   display: inline-block;
+}
+
+main {
+  overflow: hidden;
 }

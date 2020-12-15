@@ -597,4 +597,17 @@
   .container {
     padding: 0 15px !important;
   }
+  
+  .bottom_btn-item  {
+    background-size: cover;
+    &:last-child {
+      background-size: cover;
+        &:hover {
+      background-size: cover;
+    }
+    }
+    &:hover {
+      background-size: cover;
+    }
+  }
 }

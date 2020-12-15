@@ -472,6 +472,9 @@ body {
         margin-top: 12px;
     
     li {
+      &:first-child {
+        margin-right: 40px;
+      }
       a {
         &:hover {
           color: #1cc0ff;

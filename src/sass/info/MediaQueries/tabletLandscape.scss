@@ -140,6 +140,18 @@
             left: 50%;
             transform: translateX(-50%);
           }
+          &.pricing-btn {
+                color: #FFF !important;
+    padding: 8px 18px;
+    background: linear-gradient(0deg,#FF6067,#FF6067),linear-gradient(0deg,rgba(255,75,17,.3),rgba(255,75,17,.3)),linear-gradient(0deg,#FB4A94 0,#FF6565 100%);
+    border-radius: 3px;
+          &:before {
+            display: none;
+          }
+            &:hover {
+                  background: linear-gradient(0deg,#FF4F57,#FF4F57),linear-gradient(0deg,rgba(255,75,17,.3),rgba(255,75,17,.3)),linear-gradient(0deg,#FB4A94 0,#FF6565 100%);
+            }
+        }
         }
       }
     }

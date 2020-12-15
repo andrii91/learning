@@ -499,7 +499,7 @@ padding-bottom: 25px;
           color: #19153E;
 
           &.pricing-btn {
-            color: #fff;
+//            color: #fff;
           }
         }
       }
@@ -535,6 +535,14 @@ padding-bottom: 25px;
           left: 0;
           top: -1px;
           transform: none;
+        }
+        &.pricing-btn {
+            padding: 20px 35px;
+        color: #19153E;
+          background: 0 0;
+          &:before {
+            display: block;
+          }
         }
 
       }

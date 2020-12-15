@@ -52,16 +52,19 @@ body {
   left: 0;
   width: 100%;
   transition: .3s;
-  padding: 38px 0;
+  padding: 48px 0 20px;
   background: #003177;
   z-index: 9999;
   &.fixed {
     padding: 5px 0;
-        padding: 13px 0 8px;
+        padding: 11px 0 6px;
     background: #fff;
     box-shadow: 0 4px 4px rgba(0,0,0,.15);
     .fill-color {
       fill: #19153E;
+    }
+    .logo {
+      margin-top: 0;
     }
     .menu li a {
       color: #19153E;
@@ -173,20 +176,20 @@ body {
   margin: 0;
   text-align: right;
   &#menu {
-      margin-top: -2px;
+//      margin-top: -2px;
       display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 757px;
     margin-left: auto;
-        width: 70%;
+    width: 55%;
+    max-width: 546px;
   }
   li {
     display: inline-block;
-    margin-right: 40px;
+//    margin-right: 40px;
     vertical-align: middle;
     &:first-child {
-      margin-right: 60px;
+//      margin-right: 60px;
     }
     &:last-child {
       margin-right: 0;
@@ -453,13 +456,13 @@ body {
 .footer {
   background: #003177;
   padding: 46px 0;
-  padding: 32px 0 54px;
-  .logo, .menu {
+  padding: 47px 0 58px;
+  .logo {
     margin-bottom: 23px;
   }
   .logo {
     display: inline-block;
-        margin-top: 14px;
+        margin-top: 0;
     
   }
   .col-xl-9 {
@@ -469,11 +472,16 @@ body {
     position: relative;
   }
   .menu {
-        margin-top: 12px;
+    margin-bottom: 27px;
+        margin-top: 0;
     
     li {
+      margin-right: 33px;
       &:first-child {
-        margin-right: 40px;
+        margin-right: 33px;
+      }
+      &:last-child {
+        margin-right: 0;
       }
       a {
         &:hover {
@@ -490,7 +498,7 @@ body {
       width: calc(100% - 30px);
       background: #15A6EF;
       position: absolute;
-      top: 75px;
+      top: 65px;
       left: 50%;
       transform: translateX(-50%);
     }
@@ -511,7 +519,7 @@ body {
   line-height: 21px;
   color: #FFFFFF;
   opacity: 0.6;
-  margin-top: 27px;
+  margin-top: 17px;
 }
 
 .footer-menu {
@@ -526,7 +534,7 @@ body {
       justify-content: space-between;
     max-width: 317px;
     margin-left: auto;
-  margin-top: 30px;
+  margin-top: 34px;
   li {
     display: flex;
 //    margin-right: 40px;
@@ -815,6 +823,7 @@ transition: .3s;
 
 .logo {
   display: inline-block;
+      margin-top: 8px;
 }
 
 main {

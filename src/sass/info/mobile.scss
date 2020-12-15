@@ -345,6 +345,7 @@
           -ms-flex-order: -1;
           order: -1;
           margin-left: 0;
+          border: 0;
         }
       }
     }
@@ -511,7 +512,7 @@
     }
   }
 
-  #menu {
+  #menu, .menu#menu {
     //    border-top: 1px solid #D1DBE6;
     display: none;
     position: absolute;
@@ -523,6 +524,7 @@
     z-index: 999;
     background: #fff;
     border-radius: 0 0 4px 4px;
+    max-width: 100%;
 
     li {
       margin: 0;
@@ -590,5 +592,9 @@
   .footer-menu {
     max-width: 135px;
     margin-left: auto;
+  }
+  
+  .container {
+    padding: 0 15px !important;
   }
 }

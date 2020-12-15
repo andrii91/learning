@@ -43,7 +43,9 @@ body {
 
 .nav {
   .container {
-    max-width: 1350px;
+    max-width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   position: fixed;
   top: 0;
@@ -55,6 +57,7 @@ body {
   z-index: 9999;
   &.fixed {
     padding: 5px 0;
+        padding: 13px 0 8px;
     background: #fff;
     box-shadow: 0 4px 4px rgba(0,0,0,.15);
     .fill-color {
@@ -75,6 +78,7 @@ body {
 .head {
   background: #003177;
   padding: 140px 0 60px;
+
 }
 
 .head-item {
@@ -168,6 +172,15 @@ body {
   padding: 0;
   margin: 0;
   text-align: right;
+  &#menu {
+      margin-top: -2px;
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 757px;
+    margin-left: auto;
+        width: 70%;
+  }
   li {
     display: inline-block;
     margin-right: 40px;
@@ -362,7 +375,7 @@ body {
 //  background: url('../images/bg1.svg') no-repeat center;
   background: url('../images/bg.jpg') no-repeat center;
   background-size: cover;
-  padding: 30px 0 10px;
+  padding: 30px 0 22px;
   text-align: center;
   .h2-title {
     color: #fff;
@@ -396,7 +409,7 @@ body {
   max-width: 270px;
   width: 100%;
   display: inline-block;
-  margin-bottom: 55px;
+  margin-bottom: 43px;
   &:hover {
     color: #fff;
         background: linear-gradient(0deg,#FF4F57,#FF4F57),linear-gradient(0deg,rgba(255,75,17,.3),rgba(255,75,17,.3)),linear-gradient(0deg,#FB4A94 0,#FF6565 100%);
@@ -440,8 +453,14 @@ body {
 .footer {
   background: #003177;
   padding: 46px 0;
+  padding: 26px 0;
   .logo, .menu {
-    margin-bottom: 29px;
+    margin-bottom: 23px;
+  }
+  .logo {
+    display: inline-block;
+        margin-top: 14px;
+    
   }
   .col-xl-9 {
     position: static;
@@ -450,6 +469,8 @@ body {
     position: relative;
   }
   .menu {
+        margin-top: 12px;
+    
     li {
       a {
         &:hover {
@@ -466,10 +487,16 @@ body {
       width: calc(100% - 30px);
       background: #15A6EF;
       position: absolute;
-      top: 71px;
+      top: 75px;
       left: 50%;
       transform: translateX(-50%);
     }
+  }
+  
+   .container {
+    max-width: 100%;
+     padding-left: 100px;
+     padding-right: 100px;
   }
 }
 
@@ -494,15 +521,23 @@ body {
     align-items: center;
     -ms-flex-pack: center;
       justify-content: space-between;
-    max-width: 330px;
+    max-width: 317px;
     margin-left: auto;
-  margin-top: 27px;
+  margin-top: 30px;
   li {
     display: flex;
-    margin-right: 40px;
+//    margin-right: 40px;
     &:last-child {
-      margin-right: 0;
-      margin-left: 10px;
+//      margin-right: 0;
+//      margin-left: 10px;
+      position: relative;
+          padding-left: 26px;
+          border-left: 1px solid #fff;
+        &:before {
+          content: "";
+        }
+     
+      
     }
     a {
       font-family: Helvetica Now Display;
@@ -536,6 +571,8 @@ body {
       }
 
     }
+    
+    
   }
 }
 
@@ -771,4 +808,8 @@ transition: .3s;
 
       }
   }
+}
+
+.logo {
+  display: inline-block;
 }

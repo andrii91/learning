@@ -594,10 +594,11 @@
 
   .pagination-video a .content .title {
     max-width: 190px;
+    line-height: 1.2;
   }
 
   .head_single .head-title {
-    margin-bottom: 44px;
+    margin-bottom: 20px;
   }
 
   .footer-menu {
@@ -629,5 +630,13 @@
   .footer {
       padding-bottom: 25px;
     }
+  .bottom_btn {
+    overflow: hidden;
+  }
+  .pagination-video a .img {
+    display: block;
+    margin-bottom: 7px;
+}
   
 }
+

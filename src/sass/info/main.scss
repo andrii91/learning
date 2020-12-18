@@ -18,9 +18,9 @@ body {
   &:not(.home) {
     .nav {
       background: #fff;
-      #nav-icon span {
+     /* #nav-icon span {
         background: #19153E;
-      }
+      }*/
       &.fixed {
             box-shadow: 0 4px 15px rgba(100,103,130,.15);
       }
@@ -94,13 +94,17 @@ body {
     max-width: 61.5%;
     padding-left: 15px;
   padding-right: 30px;
+  transition: .3s;
+
   
   span {
     display: block;
   }
    &:hover {
-      img {
         transform: scale(1.05);
+     
+      img {
+//        transform: scale(1.05);
       }
     }
   .img {
@@ -139,10 +143,12 @@ body {
   a {
     display: flex;
     margin-bottom: 33px;
+    transition: .5s;
     &:hover {
+          transform: scale(1.1) translateX(20px);
+      
       .img {
         img {
-          transform: scale(1.05);
         }
       }
     }
@@ -703,7 +709,13 @@ margin-bottom: 15px;
   a {
     transition: .3s;
     &:hover {
-      transform: scale(1.02);
+      transform: scale(1.05) translateX(10px);
+    }
+    
+    &:last-child {
+      &:hover {
+        transform: scale(1.05) translateX(-10px);
+      }
     }
           display: flex;
     align-items: center;
@@ -793,7 +805,7 @@ transition: .3s;
       font-family: Helvetica Now Display;
       font-style: normal;
       font-weight: bold;
-      font-size: 36px;
+      font-size: 38px;
       line-height: 120%;
       color: #FFFFFF;
       margin-bottom: 30px;
@@ -831,4 +843,8 @@ transition: .3s;
 
 main {
   overflow: hidden;
+}
+
+.bottom_btn {
+//  overflow-x: hidden;
 }

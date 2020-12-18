@@ -304,7 +304,7 @@
 
     .menu {
       margin-bottom: 0;
-      padding-left: 25px;
+      padding-left: 35px;
 
       &:before {
         height: calc(100% - 10px);
@@ -314,18 +314,21 @@
         top: 50%;
         transform: translateY(-50%);
         left: inherit;
-        right: 30px;
+        right: 27px;
       }
 
       li {
         text-align: left;
         display: block;
         margin: 0 0 0px;
+        a {
+          padding: 5px 0;
+        }
       }
     }
 
     .logo {
-      margin-bottom: 52px;
+      margin-bottom: 30px;
 
       svg {
         width: 175px;
@@ -618,4 +621,13 @@
       background-size: cover;
     }
   }
+  
+  .copyright {
+    margin-top: 40px;
+  }
+  
+  .footer {
+      padding-bottom: 25px;
+    }
+  
 }

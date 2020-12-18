@@ -80,7 +80,7 @@ body {
 
 .head {
   background: #003177;
-  padding: 140px 0 60px;
+  padding: 160px 0 60px;
 
 }
 
@@ -256,7 +256,7 @@ body {
   font-family: Helvetica Now Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 130%;
   color: #FFFFFF;
   margin-bottom: 60px;
@@ -485,6 +485,7 @@ body {
         margin-right: 0;
       }
       a {
+        font-weight: 500;
         &:hover {
           color: #1cc0ff;
         }
@@ -668,7 +669,7 @@ margin-bottom: 15px;
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
-  color: #0097E2;
+  color: #0082E1;
   transition: .3s;
   display: -ms-flexbox;
     display: flex;
@@ -684,9 +685,9 @@ margin-bottom: 15px;
     
   }
   &:hover {
-    color: #0097E2;
+    color: #0082E1;
     path {
-      stroke: #0097E2;
+      stroke: #0082E1;
     }
   }
 }

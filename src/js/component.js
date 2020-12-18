@@ -9,7 +9,7 @@ $(document).ready(function() {
       
     $(this).toggleClass('open');
     $(this).parents('nav').toggleClass('open');
-    $('#menu').slideToggle(0);
+    $('#menu').slideToggle();
       $('header, main,footer').toggleClass('blur');
       $('body').toggleClass('overflow-hidden')
 

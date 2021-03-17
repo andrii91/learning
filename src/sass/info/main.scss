@@ -333,11 +333,22 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 140%;
+    line-height: 34px;
     color: #19153E;
     margin-top: 15px;
 
   }
+  
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #19153E;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+  
   &:hover {
     transform: scale(1.05);
     &:before {
@@ -354,7 +365,7 @@ body {
     border-radius: 3px;
     position: absolute;
     width: 406px;
-      height: 320px;
+      height: calc(100% + 40px);
     overflow: hidden;
     top: -18px;
     left: 50%;
@@ -625,22 +636,26 @@ body {
 
 .head_single {
   padding-top: 127px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   .head-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 58px;
     color: #19153E;
     text-align: left;
-    margin-bottom: 25px;
+    margin-bottom: 0;
   }
 }
 
 .seller-post {
   font-family: Helvetica Now Display;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 140%;
-  color: #505876;
-margin-bottom: 15px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+color: #0B98FF;
+margin-bottom: 30px;
 }
 
 .social {
@@ -674,7 +689,7 @@ margin-bottom: 15px;
   margin-bottom: 30px;
   font-family: Helvetica Now Display;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 18px;
   line-height: 26px;
   color: #0082E1;
@@ -849,4 +864,64 @@ main {
 
 .bottom_btn {
 //  overflow-x: hidden;
+}
+
+.support_articles {
+  padding: 60px 0 20px;
+  .wrap {
+    max-width: 1027px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 40px;
+    li {
+      font-family: Helvetica Now Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 36px;
+      color: #19153E;
+      position: relative;
+      padding-left: 27px;
+      &:before {
+        content: "—";
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+  
+  h2 {
+    font-family: Helvetica Now Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: #19153E;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  p {
+    font-family: Helvetica Now Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #19153E;
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-family: Helvetica Now Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #19153E;
+    margin-bottom: 24px;
+
+  }
 }

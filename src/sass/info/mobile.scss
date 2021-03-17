@@ -64,7 +64,8 @@
     -ms-flex-order: -1;
     order: -1;
   }
-/*
+
+  /*
 
   #nav-icon {
     width: 36px;
@@ -195,7 +196,7 @@
     display: inline-block;
 
     svg {
-      width: 142px;
+      width: 160px;
     }
   }
 
@@ -206,6 +207,7 @@
     max-width: 100%;
     flex: 100%;
   }
+
   .nav {
     padding-top: 20px;
   }
@@ -321,6 +323,7 @@
         text-align: left;
         display: block;
         margin: 0 0 0px;
+
         a {
           padding: 5px 0;
         }
@@ -381,7 +384,7 @@
   .seller-post {
     font-size: 18px;
     display: inline-block;
-    margin-bottom: 27px;
+    margin-bottom: 0px;
   }
 
   .social {
@@ -488,7 +491,7 @@
       fill: #19153E;
     }
 
-/*    #nav-icon {
+    /*    #nav-icon {
       span {
         background: #19153E;
       }
@@ -502,7 +505,7 @@
   .nav.fixed {
     padding: 11px 0 10px;
 
-/*    #nav-icon {
+    /*    #nav-icon {
       span {
         background: #19153E;
       }
@@ -523,7 +526,8 @@
     }
   }
 
-  #menu, .menu#menu {
+  #menu,
+  .menu#menu {
     //    border-top: 1px solid #D1DBE6;
     display: none;
     position: absolute;
@@ -598,45 +602,71 @@
   }
 
   .head_single .head-title {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    line-height: 1.2;
   }
 
   .footer-menu {
     max-width: 135px;
     margin-left: auto;
   }
-  
+
   .container {
     padding: 0 15px !important;
   }
-  
-  .bottom_btn-item  {
+
+  .bottom_btn-item {
     background-size: cover;
+
     &:last-child {
       background-size: cover;
-        &:hover {
-      background-size: cover;
+
+      &:hover {
+        background-size: cover;
+      }
     }
-    }
+
     &:hover {
       background-size: cover;
     }
   }
-  
+
   .copyright {
     margin-top: 40px;
   }
-  
+
   .footer {
-      padding-bottom: 25px;
-    }
+    padding-bottom: 25px;
+  }
+
   .bottom_btn {
     overflow: hidden;
   }
+
   .pagination-video a .img {
     display: block;
     margin-bottom: 7px;
-}
-  
-}
+  }
 
+  .support_articles {
+    ul {
+      padding-left: 5px;
+      margin-bottom: 30px;
+      li {
+        margin: 0;
+      }
+    }
+    h2 {
+     font-size: 28px; 
+    line-height: 1.2;
+  }
+    h3 {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+  }
+}

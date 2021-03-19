@@ -1114,7 +1114,9 @@ body {
     background-color: #fff;
 }  
 
-
+* {
+    -webkit-font-smoothing: antialiased; 
+}
 @import 'info/bootstrap';
 @import 'info/menu_new';
 @import 'info/footer_new';
